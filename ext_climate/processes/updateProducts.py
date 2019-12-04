@@ -13,12 +13,12 @@ import shutil
 
 @celeryApp.task(base=CeleryTask)
 def updateProducts(settings, project):
-    #try:
-    #    shutil.rmtree(settings["repository.path"] +"/maps/"+project+"/")
-    #except:
-    #    pass
-    #dist_m(settings, project)
-    #cant_m(settings, project)
+    try:
+        shutil.rmtree(settings["repository.path"] +"/maps/"+project+"/")
+    except:
+        pass
+    dist_m(settings, project)
+    cant_m(settings, project)
     my_maps(settings, project)
 
 

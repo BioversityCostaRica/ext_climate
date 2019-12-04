@@ -13,7 +13,8 @@ requires = ["formshare",
             "matplotlib",
             "numpy",
             "geopandas",
-            "descartes"]
+            "descartes",
+            "xlsxwriter"]
 
 
 

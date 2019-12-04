@@ -7,7 +7,7 @@ from .processes.updateProducts import updateProducts
 from .orm.extTask import ExtTask
 from .processes.processStatus import ProcessStatus
 from .processes.evaluateForm import getFormId
-
+from .processes.reportMAG import main
 
 class MyPublicView(FormSharePublicView):
     def process_view(self):
@@ -70,6 +70,24 @@ class PrjStatus(FormSharePrivateView):
     def process_view(self):
 
         return {"status": ProcessStatus(self, self.request.POST.get("project_id"))}
+
+
+class PrjReport(FormSharePrivateView):
+    def __init__(self, request):
+        FormSharePrivateView.__init__(self, request)
+        self.checkCrossPost = False
+        self.returnRawViewResult = True
+
+    def process_view(self):
+
+        start=int(self.request.POST.get("start").split("/")[0])
+        end= int(self.request.POST.get("end").split("/")[0])
+
+        main(self, self.request.POST.get("project_id"), start, end)
+        return {"report": main(self, self.request.POST.get("project_id"), start, end)}
+
+
+
 
 
 class SensiMap(FormSharePrivateView):

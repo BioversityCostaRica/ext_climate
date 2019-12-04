@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3601fa9c-fbb6-46d3-9bf9-17197008fd7c" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="3601fa9c-fbb6-46d3-9bf9-17197008fd7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/processes/reportMAG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/resources/css/dataTables/datatables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/resources/css/datapicker/datepicker3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/resources/css/textSpinners/spinners.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/resources/js/dataTables/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/resources/js/dataTables/datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ext_climate/resources/js/datapicker/bootstrap-datepicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate.egg-info/SOURCES.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate.egg-info/SOURCES.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate/plugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate/plugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate/processes/updateProducts.py" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate/processes/updateProducts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate/templates/dashboard/snippets/header.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate/templates/dashboard/snippets/header.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate/templates/private.jinja2" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate/templates/private.jinja2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ext_climate/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ext_climate/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +32,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Qf9Vyb9VA8B3tL3fY39A09BVUb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProcesosClima" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ext_climate/resources/css" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -29,26 +56,14 @@
       <recent name="$PROJECT_DIR$/ext_climate/templates/snippets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ext_climate/resources/css" />
+      <recent name="$PROJECT_DIR$/ext_climate/resources/js" />
       <recent name="$PROJECT_DIR$/ext_climate/processes/base" />
       <recent name="$PROJECT_DIR$/ext_climate/resources/js/ligthbox" />
-      <recent name="$PROJECT_DIR$/ext_climate/resources/js" />
       <recent name="$PROJECT_DIR$/ext_climate/static" />
-      <recent name="$PROJECT_DIR$/ext_climate/resources/css/chosen" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.reportMAG">
     <configuration name="pr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ext_climate" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -71,11 +86,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reportMAG" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ext_climate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ext_climate/processes" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ext_climate/processes/reportMAG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.reportMAG" />
         <item itemvalue="Python.pr" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -128,14 +178,35 @@
       <workItem from="1573351880859" duration="86000" />
       <workItem from="1573418134550" duration="698000" />
       <workItem from="1574349624318" duration="597000" />
-      <workItem from="1574434542297" duration="820000" />
+      <workItem from="1574434542297" duration="821000" />
+      <workItem from="1574715457992" duration="2974000" />
+      <workItem from="1574785059943" duration="16000" />
+      <workItem from="1574864598671" duration="810000" />
+      <workItem from="1574865793006" duration="23021000" />
+      <workItem from="1574953002576" duration="3108000" />
+      <workItem from="1575299459145" duration="6942000" />
+      <workItem from="1575402796449" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/ext_climate$pr.coverage" NAME="pr Coverage Results" MODIFIED="1568921112562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ext_climate/processes" />
+    <SUITE FILE_PATH="coverage/ext_climate$pr.coverage" NAME="pr Coverage Results" MODIFIED="1574718093105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ext_climate/processes" />
+    <SUITE FILE_PATH="coverage/ext_climate$reportMAG.coverage" NAME="reportMAG Coverage Results" MODIFIED="1574719240467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ext_climate/processes" />
   </component>
 </project>

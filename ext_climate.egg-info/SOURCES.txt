@@ -21,6 +21,7 @@ ext_climate/processes/gen_maps_img.py
 ext_climate/processes/getData.py
 ext_climate/processes/pr.py
 ext_climate/processes/processStatus.py
+ext_climate/processes/reportMAG.py
 ext_climate/processes/updateProducts.py
 ext_climate/resources/resources.txt
 ext_climate/resources/css/animate.css
@@ -33,10 +34,16 @@ ext_climate/resources/css/chosen/bootstrap-chosen.css
 ext_climate/resources/css/chosen/chosen-sprite.png
 ext_climate/resources/css/chosen/chosen-sprite@2x.png
 ext_climate/resources/css/chosen/chosen.css
+ext_climate/resources/css/dataTables/datatables.min.css
+ext_climate/resources/css/datapicker/datepicker3.css
 ext_climate/resources/css/ligthbox/lightbox.css
 ext_climate/resources/css/ligthbox/lightbox.min.css
+ext_climate/resources/css/textSpinners/spinners.css
 ext_climate/resources/js/chartJs/Chart.min.js
 ext_climate/resources/js/chosen/chosen.jquery.js
+ext_climate/resources/js/dataTables/dataTables.bootstrap4.min.js
+ext_climate/resources/js/dataTables/datatables.min.js
+ext_climate/resources/js/datapicker/bootstrap-datepicker.js
 ext_climate/resources/js/flot/curvedLines.js
 ext_climate/resources/js/flot/excanvas.min.js
 ext_climate/resources/js/flot/jquery.flot.js

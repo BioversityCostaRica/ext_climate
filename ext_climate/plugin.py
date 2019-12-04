@@ -3,7 +3,7 @@ import formshare.plugins.utilities as u
 from sqlalchemy import Table, Column, Unicode
 from sqlalchemy.orm import mapper
 
-from .views import MyPublicView, MyPrivateView, PrjStatus, SensiMap
+from .views import MyPublicView, MyPrivateView, PrjStatus, SensiMap,PrjReport
 from .processes.evaluateForm import validateForm
 from .orm.extTask import ExtTask
 
@@ -56,6 +56,17 @@ class ext_climate(plugins.SingletonPlugin):
                 "json",
             )
         )
+
+        custom_map.append(
+            u.add_route(
+                "report",
+                "/user/{userid}/report/{prj}",
+                PrjReport,
+                "json",
+            )
+        )
+
+
 
         return custom_map
 
@@ -115,6 +126,10 @@ class ext_climate(plugins.SingletonPlugin):
         myJS.append(u.add_js_resource("myResource", "chosen", "js/chosen/chosen.jquery.js", None))
         myJS.append(u.add_js_resource("myResource", "chartjs", "js/chartJs/Chart.min.js", None))
         myJS.append(u.add_js_resource("myResource", "ligthbox", "js/ligthbox/lightbox.js", None))
+        myJS.append(u.add_js_resource("myResource", "datepicker", "js/datapicker/bootstrap-datepicker.js", None))
+        myJS.append(u.add_js_resource("myResource", "datatablesB", "js/dataTables/dataTables.bootstrap4.min.js", None))
+        myJS.append(u.add_js_resource("myResource", "datatables", "js/dataTables/datatables.min.js", None))
+
 
         return myJS
 
@@ -128,6 +143,9 @@ class ext_climate(plugins.SingletonPlugin):
         myCSS.append(u.add_css_resource('myResource', 'font', 'css/font-awesome.css'))
         myCSS.append(u.add_css_resource('myResource', 'chosen', 'css/chosen/bootstrap-chosen.css', None))
         myCSS.append(u.add_css_resource('myResource', 'ligthbox', 'css/ligthbox/lightbox.css', None))
+        myCSS.append(u.add_css_resource('myResource', 'datepicker', 'css/datapicker/datepicker3.css', None))
+        myCSS.append(u.add_css_resource('myResource', 'datatables', 'css/dataTables/datatables.min.css', None))
+        myCSS.append(u.add_css_resource('myResource', 'spinners', 'css/textSpinners/spinners.css', None))
         return myCSS
 
     def after_form_checks(self, request, user, project, form, form_data, form_directory, survey_file, create_file,

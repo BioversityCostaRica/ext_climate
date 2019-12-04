@@ -3,6 +3,7 @@ formshare
 geopandas
 matplotlib
 numpy
+xlsxwriter
 
 [testing]
 WebTest>=1.3.1
